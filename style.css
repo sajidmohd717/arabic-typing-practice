@@ -1,0 +1,39 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(206, 206, 206);
+}
+
+.display {
+    background-color: white;
+    height: 300px;
+    width: 900px;
+    font-size: 30px;
+    padding: 50px;
+    text-align: end;
+    color: rgb(100, 100, 100);
+    border-radius: 10px;
+}
+
+.lesson-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.key-style {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(194, 194, 194);
+    background-color: white;
+    width: 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.keyboard-display {
+    width: 900px;
+}
